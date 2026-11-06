@@ -205,8 +205,13 @@ div.behaviorspecifiedin {
 	margin-bottom: -4pt;
 }
 
-div.section { text-align: justify; }
-div.sentence { display: inline; }
+div.section { 
+	text-align: justify;
+	text-align-last: left;
+}
+div.sentence { 
+	display: inline flow-root;
+}
 
 a.index {
 	position: relative;
